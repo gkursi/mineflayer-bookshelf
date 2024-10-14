@@ -1,0 +1,25 @@
+{
+  "name": "bookshelflib",
+  "version": "0.0.1",
+  "description": "A Mineflayer wrapper adding additional features mostly related to multiple instance management.",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "node .",
+    "bot": "npx ts-node ."
+  },
+  "keywords": [
+    "mineflayer"
+  ],
+  "author": "_qweru_",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@types/node": "^22.1.0",
+    "@vermaysha/discord-webhook": "^1.4.0",
+    "mineflayer": "^4.20.1",
+    "xhr2": "^0.2.1"
+  }
+}
